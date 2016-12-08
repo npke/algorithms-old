@@ -4,11 +4,11 @@
 >Heap là cấu trúc cây trong đó node cha luôn lớn hơn các node con (gọi là max heap) hoặc node cha luôn nhỏ hơn node con (gọi là min heap)
 
 #### Định nghĩa cây 
-** Cây nhị phân đầy đủ (full binary tree)  
->Là cây nhị phân trong đó tất cả các  node (trừ node con đều có 0 hoặc 2 con.  ==> Đã  không có con thì thôi nếu có con  phải có 2 đứa (trái phải))
+* Cây nhị phân đầy đủ* (full binary tree)  
+>Là cây nhị phân trong đó tất cả các  node (trừ node con) đều có 0 hoặc 2 con.  ==> Đã  không có con thì thôi nếu có con  phải có 2 đứa (trái v phải))
 
-** Cây nhị phân hoàn chỉnh (complete binary tree)  
->Là cây nhị phân trong đó tất cả các bậc (trừ bậc cuối có thể không full )à các node lá nằm hết về phía bên trái của cây. 
+* Cây nhị phân hoàn chỉnh* (complete binary tree)  
+>Là cây nhị phân trong đó tất cả các bậc (trừ bậc cuối có thể không full) đều full và các node lá nằm hết về phía bên trái của cây. 
 
 
 ```cpp
