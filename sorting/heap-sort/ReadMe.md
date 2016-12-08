@@ -8,7 +8,7 @@
 *Cây nhị phân đầy đủ* (full binary tree)  
 >Là cây nhị phân trong đó tất cả các  node (trừ node lá) đều có 0 hoặc 2 con.  ==> Đã  không có con thì thôi nếu có con  phải có 2 đứa (trái và phải)  
 
-** Ví dụ **
+**Ví dụ**
 ```
            18
        /       \  
@@ -28,7 +28,7 @@
 *Cây nhị phân hoàn chỉnh* (complete binary tree)  
 >Là cây nhị phân trong đó tất cả các bậc đều full (có 0 hoặc 2 con).Riêng bậc cuối có thể full hoặc không full, đồng thời các node lá nằm hết về phía bên trái của cây.    
 
-** Ví dụ **
+**Ví dụ**
 ```
            18
        /       \  
