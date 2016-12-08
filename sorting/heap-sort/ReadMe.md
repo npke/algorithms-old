@@ -38,7 +38,10 @@
  /  \   /
 8   7  9 
 ```
-### Cài đặt Heap Sort
+### Cài đặt Heap Sort 
+* Bước 1: Tiến hành xây dựng max-heap (sắp xếp tăng dần) từ mảng liệu bằng việc thực hiện thao tác heapify từ phần tử n/2 - 1 về phần tử 0.
+* Bước 2: Phần tử đầu tiên a[0] lnày slà phần tử lớn nhất (do đây là max-heap). Tiến hành di chuyển phtử này về cuối mảng đồng thời chuyển phần tử cuối mlên đầu swap(a[0], a[last]).
+
 ```cpp
 // C++ program for implementation of Heap Sort
 #include <iostream>
